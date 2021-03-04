@@ -1,0 +1,16 @@
+pipeline{
+    agent any
+    stages{
+        stage ('git clone ..'){
+            steps{
+                echo "Git ... cloneing.."
+            }
+            stage ('Build'){
+                steps{
+                    echo "Build ..."
+                    
+                }
+            }
+        }
+    }
+}
