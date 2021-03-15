@@ -1,1 +1,1 @@
-Get-Host | Get-Volume
+Get-Host 
