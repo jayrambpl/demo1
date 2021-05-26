@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Usage: email-when-up -e EMAIL_ADDRESS -h HOST
+# USAGE: EMAIL-WHEN-UP -E EMAIL_ADDRESS -H HOST
 # This script send an email when the server/host/device is reachable over the network.
 
 usage() {
